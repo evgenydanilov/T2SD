@@ -234,7 +234,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+/*  border: 1px solid #373737;*/
   margin-bottom: 20px;
   text-align: left;
  }
@@ -248,7 +248,7 @@ th {
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+/*  border: 1px solid #373737; */
  }
 
 form {
@@ -266,7 +266,7 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 90%;
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -368,8 +368,19 @@ Full-Width Styles
   background: #212121;
 }
 
+/*******************************************************************************
+Ace editor related
+*******************************************************************************/
+#editor { 
+  margin: 0;
+  height: 600px;
+}
 
-
+.syntax_error 
+{
+  color: red;
+}
+              
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
