@@ -374,7 +374,7 @@ Ace editor related
 *******************************************************************************/
 #editor { 
   margin: 0;
-  height: 600px;
+  height: 400px;
 }
 
 .syntax_error 
